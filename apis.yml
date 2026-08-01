@@ -1,8 +1,25 @@
 aid: quintessent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quintessent.png
 name: Quintessent
-description: 'Quintessent is a company surfaced as a portfolio company of sierra-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Quintessent is a Goleta, California deep-tech photonics company developing
+  quantum dot laser and optical interconnect technology to scale computing and AI
+  infrastructure. The company builds quantum dot epitaxial wafer supply chains (in
+  partnership with IQE) and optical connectivity solutions for AI optical interconnects,
+  targeting the bandwidth and energy-efficiency bottlenecks of next-generation data
+  centers. Backed by Sierra Ventures, Quintessent is a hardware and semiconductor
+  company; as of this profile it publishes no public API, developer portal, SDKs,
+  or machine-readable API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/quintessent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
+- Photonics
+- Semiconductors
+- Optical Interconnects
+- Quantum Dot
+- AI Infrastructure
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/quintessent-domain-security.yml
 - type: Website
   url: https://quintessent.com/
+- type: About
+  url: https://quintessent.com/about
+- type: Blog
+  url: https://quintessent.com/news
+- type: Support
+  url: https://quintessent.com/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
