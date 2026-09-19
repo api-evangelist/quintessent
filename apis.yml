@@ -23,14 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quintessent.png
 name: Quintessent
-description: 'Quintessent is a Goleta, California deep-tech photonics company developing
-  quantum dot laser and optical interconnect technology to scale computing and AI
-  infrastructure. The company builds quantum dot epitaxial wafer supply chains (in
-  partnership with IQE) and optical connectivity solutions for AI optical interconnects,
-  targeting the bandwidth and energy-efficiency bottlenecks of next-generation data
-  centers. Backed by Sierra Ventures, Quintessent is a hardware and semiconductor
-  company; as of this profile it publishes no public API, developer portal, SDKs,
-  or machine-readable API documentation.'
+description: Quintessent is a Goleta, California deep-tech photonics company developing quantum dot laser and optical
+  interconnect technology to scale computing and AI infrastructure. The company builds quantum dot epitaxial wafer
+  supply chains (in partnership with IQE) and optical connectivity solutions for AI optical interconnects, targeting
+  the bandwidth and energy-efficiency bottlenecks of next-generation data centers. Backed by Sierra Ventures, Quintessent
+  is a hardware and semiconductor company; as of this profile it publishes no public API, developer portal, SDKs,
+  or machine-readable API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/quintessent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -42,6 +40,15 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
+- Company
+- Deep Tech
+- Photonics
+- Semiconductors
+- Optical Interconnect
+- Quantum Dot
+- AI Infrastructure
+- Hardware
+tags_raw:
 - Company
 - Deep Tech
 - Photonics
@@ -67,6 +74,10 @@ common:
   url: https://quintessent.com/news
 - type: Support
   url: https://quintessent.com/contact
+- type: Website
+  url: https://www.quintessent.com
+- type: Blog
+  url: https://www.quintessent.com/news
 x-enrichment:
   date: '2026-07-20'
   status: minimal
