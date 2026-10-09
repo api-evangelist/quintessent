@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: quintessent.com
   final_host: www.quintessent.com
-  ownership: inherited
+  ownership: own
   owner: quintessent
   shares_host_with: null
-  inherited_from: www.quintessent.com
+  inherited_from: null
+  alias_of: www.quintessent.com
   verdict: scored
-  score: null
+  score: 6
+  band: 4
+  band_label: moderate
   host_score: 6
-  density: null
+  density: 46.88
   words: 128
   tiers:
     agentic: 0
