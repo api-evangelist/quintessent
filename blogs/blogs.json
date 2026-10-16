@@ -2,18 +2,25 @@
   "repo": "quintessent",
   "feeds": [
     {
-      "source": "https://quintessent.com/about",
-      "feed_url": "https://quintessent.com/about",
+      "source": "https://quintessent.com/news",
+      "feed_url": "https://quintessent.com/news",
       "title": "",
       "saved": 0,
       "method": "none"
     },
     {
-      "source": "https://www.quintessent.com",
-      "feed_url": "https://www.quintessent.com/blog-feed.xml",
+      "source": "https://www.quintessent.com/news",
+      "feed_url": "https://www.quintessent.com/news",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
+    },
+    {
+      "source": "https://quintessent.com/about",
+      "feed_url": "https://quintessent.com/about",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://www.quintessent.com/blog-feed.xml",
@@ -24,5 +31,5 @@
     }
   ],
   "post_count": 10,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
